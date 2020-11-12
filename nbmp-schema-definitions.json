@@ -166,13 +166,13 @@
               "type": "string"
             },
             "video-format": {
-              "$ref": "#/configuration/parameters"
+              "$ref": "#/configuration/properties/parameters"
             },
             "audio-format": {
-              "$ref": "#/configuration/parameters"
+              "$ref": "#/configuration"
             },
             "image-format": {
-              "$ref": "#/configuration/parameters"
+              "$ref": "#/configuration"
             },
             "protocol" : {
               "type": "string"
@@ -279,13 +279,13 @@
               "type": "string"
             },
             "video-format": {
-              "$ref": "#/configuration/parameters"
+              "$ref": "#/configuration"
             },
             "audio-format": {
-              "$ref": "#/configuration/parameters"
+              "$ref": "#/configuration"
             },
             "image-format": {
-              "$ref": "#/configuration/parameters"
+              "$ref": "#/configuration"
             },
             "codec-type": {
               "type": "string"
@@ -485,14 +485,14 @@
                 }
               },
               "flowcontrol": {
-                "$ref": "#/requirement/flowcontrol"
+                "$ref": "#/requirement/properties/flowcontrol"
               },
               "co-located": {
                 "type": "boolean",
                 "default": false
               },
               "other-parameters": {
-                "$ref": "#/configuration/parameters"
+                "$ref": "#/configuration"
               }
             }
           }
@@ -518,7 +518,7 @@
                 "$ref": "#/processing"
               },
               "requirements": {
-                "$ref": "#/requirements"
+                "$ref": "#/requirement"
               },
               "configuration": {
                 "$ref": "#/configuration"
