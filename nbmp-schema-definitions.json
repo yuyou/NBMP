@@ -169,10 +169,10 @@
               "$ref": "#/configuration/properties/parameters"
             },
             "audio-format": {
-              "$ref": "#/configuration"
+              "$ref": "#/configuration/properties/parameters"
             },
             "image-format": {
-              "$ref": "#/configuration"
+              "$ref": "#/configuration/properties/parameters"
             },
             "protocol" : {
               "type": "string"
@@ -279,13 +279,13 @@
               "type": "string"
             },
             "video-format": {
-              "$ref": "#/configuration"
+              "$ref": "#/configuration/properties/parameters"
             },
             "audio-format": {
-              "$ref": "#/configuration"
+              "$ref": "#/configuration/properties/parameters"
             },
             "image-format": {
-              "$ref": "#/configuration"
+              "$ref": "#/configuration/properties/parameters"
             },
             "codec-type": {
               "type": "string"
@@ -492,7 +492,7 @@
                 "default": false
               },
               "other-parameters": {
-                "$ref": "#/configuration"
+                "$ref": "#/configuration/properties/parameters"
               }
             }
           }
